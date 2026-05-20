@@ -3,15 +3,128 @@
 
 <head>
     <title>GLOBOL Photography</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background:black;
+            color:white;
+            font-family:Arial, sans-serif;
+            text-align:center;
+        }
+
+        .container{
+            padding:40px 20px;
+        }
+
+        h1{
+            font-size:50px;
+            margin-bottom:10px;
+            color:gold;
+        }
+
+        .tagline{
+            font-size:22px;
+            margin-bottom:40px;
+            font-style:italic;
+        }
+
+        .gallery{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+            margin-bottom:40px;
+        }
+
+        .gallery img{
+            width:300px;
+            border-radius:15px;
+            box-shadow:0 0 15px rgba(255,255,255,0.2);
+        }
+
+        .intro{
+            max-width:800px;
+            margin:auto;
+            font-size:20px;
+            line-height:1.8;
+        }
+
+        .mission{
+            margin-top:30px;
+            font-size:24px;
+            color:gold;
+        }
+
+        .next-btn{
+            display:inline-block;
+            margin-top:50px;
+            padding:15px 35px;
+            background:gold;
+            color:black;
+            text-decoration:none;
+            border-radius:30px;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+        .next-btn:hover{
+            background:white;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-    <h1>GLOBOL Photography</h1>
+    <div class="container">
 
-    <p>
-        Making memories that last forever.
-    </p>
+        <h1>GLOBOL Photography</h1>
+
+        <p class="tagline">
+            “Making memories that last forever.”
+        </p>
+
+        <div class="gallery">
+
+            <img src="IMG-20260521-WA0014.jpg">
+
+            <img src="IMG-20260521-WA0003.jpg">
+
+            <img src="IMG-20260521-WA0016.jpg">
+
+        </div>
+
+        <div class="intro">
+
+            <p>
+                At GLOBOL Photography, we believe every smile,
+                every celebration, and every unforgettable moment
+                deserves to be captured beautifully.
+            </p>
+
+            <p>
+                From weddings and graduation parties to baby showers,
+                birthdays, casual shoots, and special events,
+                we create timeless photographs that tell your story
+                with emotion, creativity, and elegance.
+            </p>
+
+            <p class="mission">
+                Our mission is simple:<br>
+                To turn moments into memories that last forever.
+            </p>
+
+        </div>
+
+        <a href="portfolio.html" class="next-btn">
+            Enter Portfolio
+        </a>
+
+    </div>
 
 </body>
 
