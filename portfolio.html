@@ -2,17 +2,195 @@
 <html>
 
 <head>
-    <title>Portfolio</title>
+
+    <title>Our Portfolio - GLOBOL Photography</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background:white;
+            color:black;
+            font-family:Arial, sans-serif;
+            text-align:center;
+        }
+
+        .container{
+            padding:40px 20px;
+        }
+
+        h1{
+            font-size:50px;
+            color:#1565c0;
+            margin-bottom:10px;
+        }
+
+        .title-line{
+            width:300px;
+            height:4px;
+            background:#1565c0;
+            margin:15px auto 40px auto;
+            border-radius:10px;
+        }
+
+        .gallery{
+            display:flex;
+            justify-content:center;
+            gap:15px;
+            flex-wrap:wrap;
+            margin-bottom:50px;
+        }
+
+        .gallery img{
+            width:230px;
+            height:180px;
+            object-fit:cover;
+            border-radius:15px;
+            box-shadow:0 0 15px rgba(0,0,0,0.15);
+            transition:0.3s;
+        }
+
+        .gallery img:hover{
+            transform:scale(1.03);
+        }
+
+        .about-section{
+            max-width:900px;
+            margin:auto;
+            font-size:20px;
+            line-height:1.8;
+            color:#222;
+        }
+
+        .services{
+            margin-top:30px;
+            text-align:left;
+            display:inline-block;
+            font-size:20px;
+            line-height:2;
+        }
+
+        .services-title{
+            margin-top:30px;
+            font-size:28px;
+            color:#1565c0;
+            font-weight:bold;
+        }
+
+        .vision{
+            margin-top:40px;
+            font-size:24px;
+            color:#1565c0;
+            font-weight:bold;
+        }
+
+        .vision-line{
+            width:420px;
+            height:4px;
+            background:#1565c0;
+            margin:25px auto;
+            border-radius:10px;
+        }
+
+        .next-btn{
+            display:inline-block;
+            margin-top:50px;
+            padding:15px 35px;
+            background:#1565c0;
+            color:white;
+            text-decoration:none;
+            border-radius:30px;
+            font-size:20px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .next-btn:hover{
+            background:#0d47a1;
+            transform:scale(1.05);
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-    <h1>Our Portfolio</h1>
+    <div class="container">
 
-    <p>
-        Weddings, graduation parties,
-        baby showers, casual shoots and more.
-    </p>
+        <h1>Our Portfolio</h1>
+
+        <div class="title-line"></div>
+
+        <div class="gallery">
+
+            <img src="IMG-20260521-WA0018.jpg">
+
+            <img src="IMG-20260521-WA0012.jpg">
+
+            <img src="IMG-20260521-WA0017.jpg">
+
+            <img src="IMG-20260521-WA0005.jpg">
+
+        </div>
+
+        <div class="about-section">
+
+            <p>
+                GLOBOL Photography specializes in capturing
+                authentic emotions and unforgettable experiences
+                through professional photography.
+            </p>
+
+            <p class="services-title">
+                We proudly cover:
+            </p>
+
+            <div class="services">
+
+                • Weddings & Introductions<br>
+
+                • Graduation Parties<br>
+
+                • Birthday Celebrations<br>
+
+                • Baby Showers<br>
+
+                • Couple & Casual Shoots<br>
+
+                • Family Portraits<br>
+
+                • Outdoor Photography<br>
+
+                • Special Events & Parties
+
+            </div>
+
+            <p style="margin-top:40px;">
+                Every photoshoot is handled with creativity,
+                professionalism, and attention to detail
+                to ensure every client receives photographs
+                worth remembering for generations.
+            </p>
+
+            <p class="vision">
+                Vision Statement<br><br>
+
+                To become a trusted photography brand known
+                for creating emotional, artistic,
+                and timeless memories.
+            </p>
+
+            <div class="vision-line"></div>
+
+        </div>
+
+        <a href="gallery.html" class="next-btn">
+            View Gallery
+        </a>
+
+    </div>
 
 </body>
 
