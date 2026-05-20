@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <title>GLOBOL Photography</title>
 
     <style>
@@ -9,8 +10,8 @@
         body{
             margin:0;
             padding:0;
-            background:black;
-            color:white;
+            background:white;
+            color:black;
             font-family:Arial, sans-serif;
             text-align:center;
         }
@@ -20,62 +21,74 @@
         }
 
         h1{
-            font-size:50px;
+            font-size:52px;
             margin-bottom:10px;
-            color:gold;
+            color:#1565c0;
         }
 
         .tagline{
             font-size:22px;
             margin-bottom:40px;
             font-style:italic;
+            color:#444;
         }
 
         .gallery{
             display:flex;
             justify-content:center;
-            gap:20px;
+            gap:15px;
             flex-wrap:wrap;
             margin-bottom:40px;
         }
 
         .gallery img{
-            width:300px;
+            width:240px;
+            height:180px;
+            object-fit:cover;
             border-radius:15px;
-            box-shadow:0 0 15px rgba(255,255,255,0.2);
-            .special-image{
-                height:200px;
-                object-fit:cover;
-            }
+            box-shadow:0 0 15px rgba(0,0,0,0.15);
+            transition:0.3s;
+        }
+
+        .gallery img:hover{
+            transform:scale(1.03);
+        }
+
+        .special-image{
+            object-position:center;
         }
 
         .intro{
-            max-width:800px;
+            max-width:850px;
             margin:auto;
             font-size:20px;
             line-height:1.8;
+            color:#222;
         }
 
         .mission{
             margin-top:30px;
             font-size:24px;
-            color:gold;
+            color:#1565c0;
+            font-weight:bold;
         }
 
         .next-btn{
             display:inline-block;
             margin-top:50px;
             padding:15px 35px;
-            background:gold;
-            color:black;
+            background:#1565c0;
+            color:white;
             text-decoration:none;
             border-radius:30px;
             font-size:20px;
             font-weight:bold;
+            transition:0.3s;
         }
 
         .next-btn:hover{
-            background:white;
+            background:#0d47a1;
+            transform:scale(1.05);
         }
 
     </style>
